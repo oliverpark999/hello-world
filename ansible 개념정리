@@ -1,0 +1,9 @@
+# Ansible 개념 정리 #
+
+1. 20.04.10.
+
+Ansible 의 대상 Host 들을 /etc/ansible/hosts 에 정보들을 넣어두는 방법도 있지만, /etc/ansible 아래에 /Inventory 라는 Directory 를 임의로 생성해주고 구성해도 된다.
+/Inventory 라는 Directory 를 Ansible 이 이해하고 자동으로 인식한다.
+
+그리고, /group_vars 라는 Directory 도 임의로 생성해서 관리하는 것이 편하다.
+
