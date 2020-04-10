@@ -1,0 +1,16 @@
+# 하기 Tree 구조에서 inventory 디렉터리를 만들고, mtime_file.yml 에 작성한 내용을 토대로 my_filter.py 파일을 읽어서 Playbook 을 
+
+/etc/ansible
+├── /etc/ansible/ansible.cfg
+├── /etc/ansible/ansible-parkwoo
+├── /etc/ansible/hosts
+├── /etc/ansible/hosts.ini
+├── /etc/ansible/inventory
+│   ├── /etc/ansible/inventory/filter_plugins
+│   │   ├── /etc/ansible/inventory/filter_plugins/my_filter02.py
+│   │   ├── /etc/ansible/inventory/filter_plugins/my_filter.py
+│   │   └── /etc/ansible/inventory/filter_plugins/my_filter.pyc
+│   ├── /etc/ansible/inventory/group_vars
+│   ├── /etc/ansible/inventory/mtime_file02.yml
+│   └── /etc/ansible/inventory/mtime_file.yml
+└── /etc/ansible/roles
